@@ -1,0 +1,30 @@
+body{
+                      background: #454C66;
+                      background-size: 1920px 1080px;
+                      margin: 0;
+}
+p{
+                      position: absolute;
+                      left: 43px;
+                      top: 594px;
+
+                      font-family: Roboto;
+                      font-style: normal;
+                      font-weight: normal;
+                      font-size: 64px;
+                      line-height: 75px;
+                      display: flex;
+                      
+                      color: #FFFFFF;
+}
+
+.Foto2{
+                      position: absolute;
+                      width: 490px;
+                      height: 450px;
+                      left: 1533px;
+                      top: 600px;
+
+
+}
+
