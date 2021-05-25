@@ -1,4 +1,5 @@
 body{
+    position: fixed;
     background: #454C66;
     background-size: 1920px 1080px;
     margin: 0;
@@ -13,7 +14,7 @@ p{
     font-weight: normal;
     font-size: 64px;
     line-height: 75px;
-    display: fixed;
+    display: flex;
                       
     color: #FFFFFF;
 }
@@ -23,20 +24,26 @@ p{
     width: 490px;
     height: 450px;
     left: 1533px;
-    top: 600px;
+    top: 550px;
 
 
 }
 
 .Ielogoties1{
-    position: fixed
+    position: fixed;
+    align-items: center;
+    text-align: center;
     width: 303px;
     height: 393px;
     left: calc(50% - 303px/2 + 25px);
     top: calc(50% - 393px/2 - 150.5px);
 
+    display: fixed;
     background: #454C66;
     border-radius: 50px;
+    border-style:outset;
+    border-width: 5px;
+    
 }
 h1{
     position: fixed;
@@ -44,8 +51,8 @@ h1{
     height: 130px;
     left: calc(50% - 177px/2 + 22px);
     bottom: 888px;
-    top: 90px;
-    left: 890px;
+    top: 175px;
+    left: 895px;
     
 
     font-family: Roboto;
@@ -62,11 +69,11 @@ h1{
 }
 #Klients{
     
-    position: fixed;
+position: fixed;
     width: 215px;
     height: 52px;
-    left: 50px;
-    top: 170px;
+    left: 880px;
+    top: 315px;
     border-radius: 50px;
     text-align: center;
     background: #D3D3D3;
@@ -87,8 +94,8 @@ h1{
     position: fixed;
     width: 215px;
     height: 52px;
-    left: 890px;
-    top: 250px;
+    left: 880px;
+    top: 400px;
     text-align: center;
     border-radius: 50px;
     background: #D3D3D3;   
